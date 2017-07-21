@@ -6,6 +6,7 @@ public class Data {
 	private int age;
 	private String address;
 	private String hotfix;
+	private String iss53;
 	public Data() {
 		// TODO Auto-generated constructor stub
 	}
@@ -36,10 +37,19 @@ public class Data {
 	public void setHotfix(String hotfix) {
 		this.hotfix = hotfix;
 	}
+	
+	public String getIss53() {
+		return iss53;
+	}
+	public void setIss53(String iss53) {
+		this.iss53 = iss53;
+	}
 	@Override
 	public String toString() {
-		return "Data [name=" + name + ", age=" + age + ", address=" + address + ", hotfix=" + hotfix + "]";
+		return "Data [name=" + name + ", age=" + age + ", address=" + address + ", hotfix=" + hotfix + ", iss53="
+				+ iss53 + "]";
 	}
+	
 	
 	
 	
